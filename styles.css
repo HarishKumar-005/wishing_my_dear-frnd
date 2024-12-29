@@ -6,15 +6,8 @@
 html {
   color-scheme: light;
 }
-
-:root {
-  --background-color: #ffffff; /* White background */
-  --text-color: #000000; /* Black text */
-}
-
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
+body{
+  background-color: #ffffff;
 }
 
 /* Wish */
