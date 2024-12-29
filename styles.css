@@ -111,7 +111,7 @@ html {
   padding-right: 5px;
   padding-bottom: 7px;
   font-size: 8px;
-  color:deeppink;
+  color: deeppink;
 }
 
 .date {
@@ -128,4 +128,42 @@ html {
   padding-bottom: 7px;
   font-size: 7px;
   color: deeppink;
+}
+
+.dear {
+  position: absolute;
+  font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  top: 255px;
+  left: 10px;
+  padding-top: 10px;
+  padding-left: 19px;
+  padding-right: 5px;
+  padding-bottom: 7px;
+  font-size: 8px;
+  color: rgb(12, 170, 233);
+}
+
+/* Promise */
+#promise {
+  background-image: url("moon.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.promise-box {
+  z-index: 0;
+  position: relative;
+}
+
+.promise-box img {
+  border-radius: 50px;
 }
