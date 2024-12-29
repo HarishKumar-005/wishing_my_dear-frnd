@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Wish */
+#wish {
+  background-image: url("moon.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wish-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 0;
+  position: relative;
+}
+
+.wish-box img {
+  border-radius: 100px;
+  opacity: 0.8;
+}
+.wish-box h1 {
+  position: absolute;
+  top: 10px;
+  padding-top: 50px;
+  padding-bottom: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 5rem;
+
+  line-height: 1.2;
+  color: white;
+  font-family: "Tangerine", serif;
+  font-weight: bolder;
+}
+
+.emoji {
+  position: absolute;
+  bottom: 150px;
+  text-align: center;
+
+  background-color: #fff;
+  color: deeppink;
+  border: 1px solid deeppink;
+  border-radius: 50%;
+  padding: 20px;
+
+  cursor: pointer;
+}
+
+.emoji a {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  color: deeppink;
+  text-align: center;
+}
+
+/* Letter */
+
+#letter {
+  background-image: url("moon.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
