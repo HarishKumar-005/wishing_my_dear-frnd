@@ -6,9 +6,6 @@
 html {
   color-scheme: light;
 }
-body{
-  background-color: #ffffff;
-}
 
 /* Wish */
 #wish {
@@ -92,9 +89,41 @@ body{
   overflow: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #ffffff !important; /* White background */
-    --text-color: #000000 !important; /* Black text */
-  }
+.letter-box {
+  z-index: 0;
+  position: relative;
+}
+
+.letter-box img {
+  border-radius: 40px;
+}
+
+.to {
+  position: absolute;
+  font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  top: 25px;
+  left: 10px;
+  padding-top: 120px;
+  padding-left: 19px;
+  padding-right: 5px;
+  padding-bottom: 7px;
+  font-size: 8px;
+}
+
+.date {
+  position: absolute;
+  font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  top: 25px;
+  right: 10px;
+  padding-top: 120px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 7px;
+  font-size: 7px;
 }
