@@ -146,6 +146,26 @@ html {
   color: rgb(12, 170, 233);
 }
 
+#special{
+  background-image: url("moon.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.special-box{
+  position: relative;
+}
+.special-box img{
+  border-radius: 25px;
+  
+}
+
 /* Promise */
 #promise {
   background-image: url("moon.webp");
@@ -247,9 +267,12 @@ html {
   font-weight: 700;
   font-style: normal;
   font-size: 35px;
+  cursor: pointer;
   color: deeppink;
   text-align: center;
   background-color: rgb(247, 220, 224);
   border: 3px solid deeppink;
   border-radius: 50px;
 }
+
+
