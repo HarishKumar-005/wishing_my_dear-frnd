@@ -136,7 +136,7 @@ html {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  top: 255px;
+  top: 232px;
   left: 10px;
   padding-top: 10px;
   padding-left: 19px;
@@ -146,6 +146,36 @@ html {
   color: rgb(12, 170, 233);
 }
 
+.frndship-letter{
+  position: absolute;
+  font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 7.719px;
+  padding-left: 10px;
+  padding-right: 5px;
+  top: 275px;
+  left: 8px;
+  right: 2px;
+  color:blue;
+  
+}
+
+.yours{
+  position: absolute;
+  font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 7.719px;
+  left: 183px;
+  bottom: 19px;
+  padding: 2px;
+  color:indigo;
+}
+
+/*Special moments*/
 #special{
   background-image: url("moon.webp");
   background-size: cover;
