@@ -152,7 +152,7 @@ html {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 7.719px;
+  font-size: 7.519px;
   padding-left: 10px;
   padding-right: 5px;
   top: 275px;
@@ -169,8 +169,8 @@ html {
   font-weight: 400;
   font-style: normal;
   font-size: 7.719px;
-  left: 183px;
-  bottom: 19px;
+  left: 165px;
+  bottom: 33px;
   padding: 2px;
   color:indigo;
 }
@@ -183,6 +183,7 @@ html {
   background-repeat: no-repeat;
   height: 100vh;
   display: flex;
+  
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -204,18 +205,29 @@ html {
   background-repeat: no-repeat;
   height: 100vh;
   display: flex;
+  
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-}
-
-.promise-box {
-  z-index: 0;
   position: relative;
 }
 
+.promise-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 5px;
+}
+
 .promise-box img {
-  border-radius: 50px;
+  border-radius: 19px;
+  padding: 5px;
+  
+  
 }
 
 /*Ask me*/
